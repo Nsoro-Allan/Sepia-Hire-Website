@@ -237,6 +237,9 @@ section{
 /* section two starts here */
 .section-two-container{
     background: #4361EE0D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .section-two-content{
@@ -298,6 +301,7 @@ section{
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 .card{
@@ -305,7 +309,6 @@ section{
     padding: 10px;
     width: 289px;
     height: auto;
-    margin-bottom: 50px;
     margin: 1%;
     border-radius: 20px;
     display: flex;
